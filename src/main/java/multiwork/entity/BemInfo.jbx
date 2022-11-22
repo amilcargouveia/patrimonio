@@ -1,0 +1,19 @@
+[PropertyInfo]
+codigo,int,false,false, , ,true,<default>
+codigoDeBarras,String,false,false, , ,true,<default>
+codigoFornecedor,int,false,false, , ,true,<default>
+codigoGrupo,int,false,false, , ,true,<default>
+codigoSetor,int,false,false, , ,true,<default>
+dataInclusao,Timestamp,false,false, , ,true,<default>
+descricao,String,false,false, , ,true,<default>
+notaFiscal,int,false,false, , ,true,<default>
+particular,int,false,false, , ,true,<default>
+proprietario,String,false,false, , ,true,<default>
+tombo,String,false,false, , ,true,<default>
+ultimaMovimentacao,Timestamp,false,false, , ,true,<default>
+valorDaCompra,double,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

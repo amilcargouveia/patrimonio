@@ -1,0 +1,486 @@
+body {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+textarea {
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:   8pt;
+}
+
+input, select {
+  font-family: tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:   8pt;
+}
+
+a {
+  text-decoration: none;
+  color:           #000077;
+  font-size:       8pt;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:           #0000FF;
+}
+
+.3DDkShadow {
+  background-color: #404040;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.3DLight {
+  background-color: #D4D0C8;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.ActiveBorder {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.ActiveCaption {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      bold;
+}
+
+.AppWorkSpace {
+  background-color: #808080;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Background {
+  background-color: #3A6EA5;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnFace {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnFrame {
+  background-color: #3169C6;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnHighlight {
+  background-color: #FFFFFF;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnText {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnSelected {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.BtnShadow {
+  background-color: #808080;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.CaptionText {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Disabled {
+  background-color: #808080;
+  color:            #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.DisabledText {
+  color:            #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.DisabledFontShadow {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.FrameBottomRightInner {
+  background-color: #A6CAF0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border:           1px 1px 1px 1px #A6CAF0;
+}
+
+.FrameBottomRightOuter {
+  background-color: #A6CAF0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border:           1px 1px 1px 1px #A6CAF0;
+}
+
+.FrameTopLeftInner {
+  background-color: #A6CAF0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border:           1px 1px 1px 1px #A6CAF0;
+}
+
+.FrameTopLeftOuter {
+  background-color: #A6CAF0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border:           1px 1px 1px 1px #A6CAF0;
+}
+
+.GradientActiveCaption {
+  background-color: #A6CAF0;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.GradientInactiveCaption {
+  background-color: #C0C0C0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.GrayText {
+  color:            #C0C0C0;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Highlight {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.HighLightText {
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Hot {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.HotText {
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.InactiveBorder {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.InactiveCaption {
+  background-color: #808080;
+  color:            #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      bold;
+}
+
+.InactiveCaptionText {
+  color:            #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      bold;
+}
+
+.InfoBk {
+  background-color: #FFFFE1;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.InfoText {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Menu {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.MenuText {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Report {
+  background-color: #FFFFFF;
+  color:            #000000;
+  font-family:      courier new;
+  font-size:        8pt;
+}
+
+.Selected {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.SelectedText {
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.ScrollBar {
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Shadow {
+  background-color: #808080;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Text {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Unused {
+  background-color: #000000;
+  color:            #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.Window {
+  background-color: #FFFFFF;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.WindowFrame {
+  background-color: #A6CAF0;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border:           1px 1px 1px 1px #A6CAF0;
+}
+
+.WindowText {
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+
+
+
+
+
+
+
+
+.MsgBox {
+  border-top:    2px solid #ffffff;
+  border-left:   2px solid #ffffff;
+  border-right:  2px solid #404040;
+  border-bottom: 2px solid #404040;
+  border-collapse: collapse;
+}
+
+.Grid {
+  background-color: #D4D0C8;
+  border:           1px solid;
+  border-collapse:  collapse;
+  cursor:           text;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+}
+
+.GridHeader {
+  color:            #000000;
+  background-color: #d6d3ce;
+  height:           15px;
+  border-right:      1px solid #FFFFFF;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+  padding-left:     3px;
+}
+
+.GridRowOdd {
+  background-color: #ffffff;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+}
+
+.GridRowEven {
+  background-color: #f7f3eb;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+}
+
+.GroupBox {
+  background-color: #D4D0C8;
+  border:           1px solid;
+  border-collapse:  collapse;
+  cursor:           text;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+}
+
+.GroupBoxHeader {
+  color:            #000000;
+  background-color: #D4D0C8;
+  border:           1px solid;
+  border-collapse:  collapse;
+  height:           15px;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+  padding:          3px;
+}
+
+.GroupBoxBody {
+  vertical-align:   top;
+  background-color: #D4D0C8;
+  color:            #000000;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  font-weight:      normal;
+  padding:          5px;
+}
+
+.FlatButton     {
+  background-color: #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border-style:     none;
+  border-width:     1;
+}
+
+.FlatButtonDown {
+  background-color: #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border-style:     inset;
+  border-width:     1;
+}
+
+.FlatButtonOver {
+  background-color: #D4D0C8;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  border-style:     outset;
+  border-width:     1;
+}
+
+
+.TabSheet {
+  background-color:    #D4D0C8;
+  border:              2px 2px 2px 2px;
+  border-bottom-style: none;
+  border-style:        outset;
+  color:               #000000;
+  cursor:              default;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-weight:         normal;
+  height:              50px;
+  line-height:         150%;
+  margin:              0px;
+  position:            absolute;
+  text-align:          center;
+}
+
+
+.TabSheetInactive {
+  background-color:    #D4D0C8;
+  border:              2px 2px 2px 2px;
+  border-bottom-style: none;
+  border-style:        outset;
+  color:               #000000;
+  cursor:              default;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-weight:         normal;
+  height:              50px;
+  line-height:         150%;
+  margin:              0px;
+  position:            absolute;
+  text-align:          center;
+}
+
+.TabSheetPanel {
+  background-color: #D4D0C8;
+  border:           2px 2px 2px 2px;
+  border-style:     outset;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        smaller;
+  left:             0px;
+  margin:           0px;
+  padding:          6px;
+  position:         absolute;
+  top:              38px;
+}

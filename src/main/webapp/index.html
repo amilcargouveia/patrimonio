@@ -1,0 +1,45 @@
+<html>
+<title></title>
+
+<script>
+  function isBrowserOk(version) {
+    browserVersion = navigator.appVersion;
+    browserVersion = browserVersion.substring(browserVersion.indexOf(';')+2, browserVersion.length);
+    browserVersion = browserVersion.substring(browserVersion.indexOf(' ')+1, browserVersion.length);
+    browserVersion = browserVersion.substring(0, browserVersion.indexOf(';'));
+    return parseInt(browserVersion) >= version;
+  }
+
+  function openHome() {
+    // altura e largura
+    inWidth  = screen.availWidth - 8;
+    inHeight = screen.availHeight - 30;
+    // posição
+    inLeft   = 0;
+    inTop    = 0;
+    window.open('controller',
+	        'multiwork',
+		'top=' + inTop +
+                ',left=' + inLeft +
+                ',width=' + inWidth +
+                ',height=' + inHeight +
+                ',menubar=false,location=false,scrollbars=true,status=false,resizable');
+  }
+
+  function showIsNotBrowserOk(version) {
+    alert('Este serviço requer o Microsoft Internet Explorer ' + version + '.0 ou superior. \r' +
+          'O browser que você está utilizando é ' + navigator.appName + ' ' + navigator.appVersion);
+  }
+
+</script>
+
+
+<body>
+  <script>
+    if (!isBrowserOk(4))
+      showIsNotBrowserOk(4);
+    else
+      openHome();
+  </script>
+</body>
+</html>

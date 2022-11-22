@@ -1,0 +1,8 @@
+<usuario tablename="Usuario">
+  <fieldcodigo name="inCodigoUsuario" />
+  <fieldnome   name="vaNome" />
+  <fieldnivel  name="smNivel" />
+  <fieldsenha  name="chSenha" />
+  <sequencecodigo name="" />
+  <administrator username="Admin" password="admin" />
+</usuario>

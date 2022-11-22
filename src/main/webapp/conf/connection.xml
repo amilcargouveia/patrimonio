@@ -1,0 +1,4 @@
+<connection>
+  <driver name="org.gjt.mm.mysql.Driver" url="jdbc:mysql://localhost/orcamentario" />
+  <user name="root" password="" />
+</connection>
